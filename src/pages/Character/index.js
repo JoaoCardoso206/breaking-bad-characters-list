@@ -17,7 +17,7 @@ export function Character(){
             setCharacter(data[0]);
         }
         getCharacter();
-    }, [])
+    }, [id])
 
     return(
         
@@ -33,19 +33,19 @@ export function Character(){
                      <h2>{character.nickname}</h2>
                  </div>
                 <div className="character-birthday">
-                    <a>Birthday</a> {character.birthday}
+                    Birthday {character.birthday}
                 </div>
                 <div className="character-ocupation">
-                    <a>Occupation</a> {character.occupation}
+                    Occupation {character.occupation}
                 </div>
                 <div className="character-status">
-                    <a>Status</a> {character.status}
+                    Status {character.status}
                 </div>
                 <div className="character-appearances">
-                    <a>Appearances</a> {character.appearance}
+                    Appearances {character.appearance}
                 </div>
                 <div className="character-portrayed">
-                    <a>Portrayed</a> {character.portrayed}
+                    Portrayed {character.portrayed}
                 </div>
                 <div className="character-category">
                    <a>Category</a> {character.category}
