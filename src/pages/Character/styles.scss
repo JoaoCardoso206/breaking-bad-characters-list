@@ -1,0 +1,165 @@
+.character{
+    &-conteiner{
+        max-width: 84%;
+        margin: 5rem auto 0 5rem;
+        padding: 0 1.5rem;
+        display: flex;
+        padding-left: 8.8rem;
+        padding-right: 8.8rem;
+
+        @media(max-width: 577px){
+           flex-direction: column;
+           max-width: 100%;
+           padding: 0;
+           margin-left: 1.5rem;
+           margin-right:1.5rem;
+           
+        }
+    }
+
+    &-aside{
+        
+        width: 42%;
+       
+        @media(max-width: 577px){
+            width: 100%;
+            
+          }
+
+        &-image{
+            
+            
+            img{
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+                width: 100%;
+                height: auto;
+                display: block;
+                
+            
+               
+                
+            }
+           
+        }
+    }
+
+    &-main{
+        flex: 1;
+        padding-left: 1.5rem;
+       
+        @media(max-width: 577px){
+            padding: 0
+            
+          }
+        
+    }
+
+    &-name{
+        border-top: 1px solid ;
+        padding-top: 0.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 24;
+        
+        @media(max-width: 577px){
+           
+            margin-top: 1rem;
+
+            h1{
+              font-size: 20px;  
+            }
+            h2{
+                font-size: 20px;
+            }
+            
+          }
+    
+
+        h2{
+            border-bottom: 1px solid;
+            padding: 0.5rem 0 0.5rem 0;
+        }
+    }
+
+   
+    @media(max-width: 577px){
+        a{
+           display: none;
+        }
+        
+      }
+
+    &-birthday{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 5.5rem 0.5rem 0.5rem;
+        border-bottom: 1px solid;
+       
+
+      
+    }
+
+    &-ocupation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5.5rem 1rem 0.5rem;
+        border-bottom: 1px solid;
+        
+
+   
+    }
+
+    &-status{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 5.5rem 1.5rem 0.5rem;
+        border-bottom: 1px solid;
+        
+
+     
+    }
+
+    &-appearances{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5.5rem 1rem 0.5rem;
+        border-bottom: 1px solid;
+        
+     
+    }
+
+    &-portrayed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 5.5rem 1.5rem 0.5rem;
+        border-bottom: 1px solid;
+        
+       
+    }
+
+    &-category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5.5rem 1rem 0.5rem;
+        border-bottom: 1px solid;
+        
+
+        &-a{
+            flex: 1;
+            font-weight: 400;
+            text-align: left;
+        }
+        
+       
+         
+    }
+
+   
+}

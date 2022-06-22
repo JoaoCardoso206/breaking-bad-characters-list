@@ -1,0 +1,33 @@
+.card{
+    width: calc(100% / 4);
+
+    padding: 0 0.75rem;
+
+    @media (max-width: 577px){
+        width: 100%;
+    }
+
+    &-image{
+        
+           padding-bottom: 150%;
+
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+        
+    }
+
+    &-title{
+
+        
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+
+       
+        
+    }
+
+
+   
+}
