@@ -4,7 +4,7 @@ export function Header(){
     return(
         <header>
             <div className='button'>
-            <Link to="/"><h1>Breaking Bad</h1><a>Character List</a></Link>
+            <Link to="/"><h1>Breaking Bad</h1>Character List</Link>
             </div>
         </header>
     )

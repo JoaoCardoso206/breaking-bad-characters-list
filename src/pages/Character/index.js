@@ -32,23 +32,59 @@ export function Character(){
                      <h1>{character.name}</h1>
                      <h2>{character.nickname}</h2>
                  </div>
-                <div className="character-birthday">
-                    Birthday {character.birthday}
+
+                 <div className="character-info">
+                    <div className="character-birthday-title">
+                        Birthday 
+                    </div>
+                    <div className="content">
+                        {character.birthday}
+                    </div>
                 </div>
-                <div className="character-ocupation">
-                    Occupation {character.occupation}
+
+                <div className="character-info">
+                    <div className="character-occupation-title">
+                        Occupation 
+                    </div>
+                    <div className="content">
+                        {character.occupation}
+                    </div>
                 </div>
-                <div className="character-status">
-                    Status {character.status}
+
+                <div className="character-info">
+                    <div className="character-status-title">
+                        Status 
+                    </div>
+                    <div className="content">
+                        {character.status}
+                    </div>
                 </div>
-                <div className="character-appearances">
-                    Appearances {character.appearance}
+
+                <div className="character-info">
+                    <div className="character-appearances-title">
+                        Appearances 
+                    </div>
+                    <div className="content">
+                        {character.appearance}
+                    </div>
                 </div>
-                <div className="character-portrayed">
-                    Portrayed {character.portrayed}
+
+                <div className="character-info">
+                    <div className="character-portrayed-title">
+                        Portrayed  
+                    </div>
+                    <div className="content">
+                        {character.portrayed}
+                    </div>
                 </div>
-                <div className="character-category">
-                   <a>Category</a> {character.category}
+                
+                <div className="character-info">
+                    <div className="character-category-title">
+                        Category 
+                    </div>
+                    <div className="content">
+                        {character.category}
+                    </div>
                 </div>
              </div>
         </div>
